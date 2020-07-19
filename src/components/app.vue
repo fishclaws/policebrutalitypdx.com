@@ -28,15 +28,16 @@ import Navbar from "./navbar.vue";
 import Help from "./help.vue";
 import { Watch } from "vue-property-decorator";
 import { Action, State, Getter } from "vuex-class";
+import axios from 'axios';
+import { ToggleButton } from 'vue-js-toggle-button'
+
 // import VueCoreVideoPlayer from 'vue-core-video-player'
-const VueCoreVideoPlayer = require('vue-core-video-player').default
 // const mapboxgl = require('mapbox-gl')
 // import { Tweet, Moment, Timeline } from 'vue-tweet-embed'
+const VueCoreVideoPlayer = require('vue-core-video-player').default
 const { Tweet, Moment, Timeline } = require('vue-tweet-embed')
-import axios from 'axios';
 const GSheetReader = require('g-sheets-api');
 // const { ToggleButton } = require('vue-js-toggle-button');
-import { ToggleButton } from 'vue-js-toggle-button'
 
 Vue.use(VueCoreVideoPlayer);
 
