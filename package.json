@@ -38,7 +38,7 @@
   "dependencies": {
     "@babel/polyfill": "~7.8.7",
     "@types/lodash": "~4.14.150",
-    "axios": "~0.18.1",
+    "axios": "~0.21.1",
     "core-util-is": "^1.0.2",
     "csg": "^1.0.1",
     "lodash": "~4.17.15",
