@@ -44,7 +44,7 @@
     "lodash": "~4.17.15",
     "mapbox": "~1.0.0-beta10",
     "mapbox-gl": "~1.11.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "postprocessing": "~6.13.4",
     "raw-loader": "^1.0.0",
     "recaptcha-v3": "~1.8.0",
